@@ -2,7 +2,12 @@
 module.exports = {
    content: ["./src/**/*.{html,js}"],
    theme: {
-      extend: {},
+      extend: {
+         fontFamily: {
+            "bruno-ace": ['"Bruno Ace"', "cursive"],
+            poppins: ['"Poppins"', "sans-serif"],
+         },
+      },
    },
    plugins: [],
 };
